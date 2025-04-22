@@ -1,0 +1,37 @@
+header {
+  padding: 30px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-family: Nunito;
+}
+
+a.logo
+{  
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 0px;
+}
+a.logo span
+{
+  font-size: 24px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 6px;
+  font-weight: 700;
+  color: #3E3F43;
+
+}
+a.logo img
+{  
+  width: 64px;
+  height: 64px;
+  cursor: pointer;
+}
+
+
+
+  
+
+
