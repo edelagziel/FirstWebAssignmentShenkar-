@@ -3,7 +3,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  align-items: center;            
   font-family: Nunito;
+  gap: 135px;
 }
 
 a.logo
