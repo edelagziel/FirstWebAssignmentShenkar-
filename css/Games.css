@@ -24,4 +24,62 @@
 }
 
 
+.gameGenres
+{
+    margin-top: 32px;
+    margin-bottom: 66px;
+
+
+}
+.gameGenres h2
+{
+    color: #612999;
+    font-family: 'Rubik';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+}
+.gameGenres-ul
+{
+    list-style: none;
+    color: #000;
+    font-family: 'Rubik';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px; /* 58.333% */
+    position: relative;
+
+}
+.gameGenres li
+{
+    padding-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    text-align: center;
+    align-items: center;
+
+}
+.BackgrondImg
+{
+    width: 82px;
+    height: 82px;
+    border-radius: 46.5px;
+    background: #612999;
+    backdrop-filter: blur(10px);
+    
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.BackgrondImg svg
+{
+    width: 29px;
+    height: 42.385px;
+
+}
+
+
 
