@@ -48,7 +48,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
-    line-height: 14px; /* 58.333% */
+    line-height: 14px; 
     position: relative;
 
 }
@@ -79,6 +79,28 @@ justify-content: center;
     width: 29px;
     height: 42.385px;
 }
+
+.video-section
+{
+    /* background-color: #EFECFF; */
+    margin-bottom: 32px;
+}
+.video-section h2
+{
+    color: #612999;
+    font-family: 'Rubik';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; /* 100% */
+}
+.video-section video
+{
+ 
+    margin-top: 32px;
+  
+}
+
 
 
 
