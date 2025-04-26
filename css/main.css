@@ -1,25 +1,23 @@
 .top-website
 {
     position: relative;
-    width: 100vw; /* כל רוחב החלון */
-    margin-left: calc(-50vw + 50%); /* מאזן את ההזזה שמבצע ה-wrapper */
-
 }
+
 
 .full-width-image
 {
-   width: 100%;
    height: 797px;
+   width: 100vw;
+   margin-left: calc(-50vw + 50%);
 
 }
 
 .On-Web-top-img
 {
-    position: absolute;
-    padding-left: 32px;
-    padding-top: 32px;
+    position: absolute; 
     color: #612999;
     font-family: Nunito;
+    margin-top: 32px;
 }
 .On-Web-top-img h1
 {
@@ -41,7 +39,7 @@
 {
     margin-top: 32px;
     text-align: justify;
-    font-family: Rubik;
+    font-family: 'Rubik';
     font-style: normal;
 }
 .About h2

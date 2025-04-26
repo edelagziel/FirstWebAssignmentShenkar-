@@ -1,0 +1,124 @@
+.card-grid
+{
+    margin-top: 32px;
+    /* margin-bottom: 246px; */
+    margin-bottom: 32px;
+    /* width: 72%; */
+
+    /* width: 72%; */
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px
+
+
+    
+}
+
+.Card
+{
+    margin-bottom: 27px;
+    border-radius: 38px;
+    background: #EFECFF;
+    box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+    width: 376px;
+    height: 496px;
+    overflow: hidden; /* 🛑 מונע גלישה החוצה */
+
+}
+.Popular_Drinks
+{
+    margin-top: 32px;
+}
+.Popular_Drinks h2
+{
+    color: #612999;
+    font-family:'Rubik';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px; 
+}
+.Card-Small-Img
+{
+    position: relative;
+}
+.Card-Small-Img img
+{
+    width: 375px;
+    height: 290px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    border-radius: 32px;
+
+}
+.card-content h4
+{
+    padding-left: 32px;
+    color: #000;
+    text-align: justify;
+    font-family: 'Abel';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.card-content p
+{
+    width: 315px;
+    height: 70px;
+    overflow: hidden;
+    padding-left: 32px;
+    color: #333;
+    font-family: 'Abel';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.price-row 
+{
+    margin-bottom: 32px;
+}
+
+.price-row span
+{
+    color: #612999;
+    padding-left: 32px;
+    text-align: justify;
+    font-family: 'Abel';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cart-btn
+{
+    margin-left: 94px;
+
+    width: 63px;
+    height: 63px;
+    border-radius: 50%;
+    background-color: #612999;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.like
+{
+    position: absolute;
+    width: 47px;
+    height: 47px;
+    top: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EFECFF;
+    cursor: pointer;
+
+} 
+.like:hover {
+    background-color: #f8bbd0; 
+  }
+
+
+  
